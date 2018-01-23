@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="fi"class="no-js iem7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="fi" class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="fi" class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html lang="fi" class="no-js"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>Metsästysajat | Suomen riistakeskus</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://riista.fi/xmlrpc.php" />
+	<script src="https://riista.fi/wp-content/themes/riista/js/vendor/custom.modernizr.js"></script>
+	<script>var isIE8 = false;</script>
+
+	<!--[if lte IE 8]>
+	<script>var isIE8 = true;</script>
+	<link rel="stylesheet" href="https://riista.fi/wp-content/themes/riista/styles/css/ie8grid.css" />
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="https://riista.fi/wp-content/themes/riista/styles/css/riista-icons-ie7.css" />
+	<![endif]-->
+
+	<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Suomen riistakeskus &raquo; syöte" href="https://riista.fi/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Suomen riistakeskus &raquo; kommenttien syöte" href="https://riista.fi/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/riista.fi\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='riista-style-css'  href='https://riista.fi/wp-content/themes/riista/styles/css/app.css?ver=3.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='select2-style-css'  href='https://riista.fi/wp-content/themes/riista/js/select2/css/select2.min.css?ver=3.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='modaal-css-css'  href='https://riista.fi/wp-content/themes/riista/styles/css/modaal.min.css?ver=4.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='social-logos-css'  href='https://riista.fi/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://riista.fi/wp-content/plugins/jetpack/css/jetpack.css?ver=5.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpfaqstyle-css'  href='https://riista.fi/wp-content/plugins/wp-faq/views/default/style.css?ver=1.6.1' type='text/css' media='screen' />
+<script type='text/javascript' src='https://riista.fi/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://riista.fi/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/vendor/custom.modernizr.js?ver=2.7.1'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/plugins/wp-faq/js/wp-faq.js?ver=4.9.2'></script>
+<link rel='https://api.w.org/' href='https://riista.fi/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://riista.fi/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://riista.fi/wp-includes/wlwmanifest.xml" /> 
+<link rel="canonical" href="https://riista.fi/metsastys/metsastysajat/" />
+<link rel='shortlink' href='https://wp.me/P4eid4-4v' />
+<link rel="alternate" type="application/json+oembed" href="https://riista.fi/wp-json/oembed/1.0/embed?url=https%3A%2F%2Friista.fi%2Fmetsastys%2Fmetsastysajat%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://riista.fi/wp-json/oembed/1.0/embed?url=https%3A%2F%2Friista.fi%2Fmetsastys%2Fmetsastysajat%2F&#038;format=xml" />
+<!-- Stream WordPress user activity plugin v3.2.2 -->
+
+	<script type="text/javascript">
+		var ajaxurl = 'https://riista.fi/wp-admin/admin-ajax.php';
+	</script><script type="text/javascript">
+	var wpfaqAjax = "https://riista.fi/wp-content/plugins/wp-faq/wp-faq-ajax.php?";
+	var faqs_ajaxurl = "https://riista.fi/wp-admin/admin-ajax.php?";
+var wpfaqUrl = "https://riista.fi/wp-content/plugins/wp-faq";
+
+var faqs_config = {};
+faqs_config.scroll_offset = '';
+</script><link rel="alternate" href="https://riista.fi/metsastys/metsastysajat/" hreflang="fi" />
+<link rel="alternate" href="https://riista.fi/sv/jakt/jakttider/" hreflang="sv" />
+<link rel="alternate" href="https://riista.fi/se/meahcasteapmi/meahcastanaiggit/" hreflang="se" />
+<link rel="alternate" href="https://riista.fi/en/hunting/open-seasons/" hreflang="en" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Metsästysajat" />
+<meta property="og:url" content="https://riista.fi/metsastys/metsastysajat/" />
+<meta property="og:description" content="Lisää artikkelissa, tutustu." />
+<meta property="article:published_time" content="2013-02-19T10:50:54+00:00" />
+<meta property="article:modified_time" content="2017-08-25T05:48:30+00:00" />
+<meta property="og:site_name" content="Suomen riistakeskus" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="fi_FI" />
+<meta property="og:locale:alternate" content="sv_SE" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta name="twitter:text:title" content="Metsästysajat" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Lisää artikkelissa, tutustu." />
+	<link rel="shortcut icon" href="https://riista.fi/wp-content/themes/riista/images/favicon.ico" />
+
+</head>
+
+<body class="page-template page-template-templates page-template-times page-template-templatestimes-php page page-id-279 page-child parent-pageid-37 group-blog">
+
+	
+	
+	<header id="masthead" class="site-header" role="banner">
+
+		<div class="top-nav">
+
+			<div class="row">
+
+				<nav class="language-nav large-4 columns">
+					<ul>	<li class="lang-item lang-item-2 lang-item-fi lang-item-first current-lang"><a lang="fi" hreflang="fi" href="https://riista.fi/metsastys/metsastysajat/">Suomi</a></li>
+	<li class="lang-item lang-item-4 lang-item-sv"><a lang="sv-SE" hreflang="sv-SE" href="https://riista.fi/sv/jakt/jakttider/">Svenska</a></li>
+	<li class="lang-item lang-item-3 lang-item-se"><a lang="se" hreflang="se" href="https://riista.fi/se/meahcasteapmi/meahcastanaiggit/">Sámegillii</a></li>
+	<li class="lang-item lang-item-5 lang-item-en"><a lang="en-US" hreflang="en-US" href="https://riista.fi/en/hunting/open-seasons/">English</a></li>
+</ul>
+				</nav>
+
+				<nav class="utility-nav large-8 columns hide-for-small">
+					<div class="menu-apuvalikko-container"><ul id="menu-apuvalikko" class="menu"><li><a href="https://riista.fi/riistahallinto/julkiset-hallintotehtavat/">Julkiset hallintotehtävät</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/">Yhteystiedot</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/palaute/">Palaute</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/medialle/">Medialle</a></li>
+</ul></div>				</nav>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="logo-wrapper large-5 columns">
+				<h1 class="assistive-text">Suomen riistakeskus</h1>
+				<a href="https://riista.fi/" class="logo" title="Suomen riistakeskus" rel="home">
+										<img src="https://riista.fi/wp-content/themes/riista/images/riistalogo-transparent.png" alt="Riistakeskus">
+									</a>
+			</div>
+
+			<div id="header-nav" class="large-7 columns hide-for-small">
+
+				<nav id="utility-nav" class="utility-nav large-9 columns">
+					<div class="menu-apuvalikko-2-container"><ul id="menu-apuvalikko-2" class="menu"><li><a href="https://oma.riista.fi/"><span>Kirjaudu palveluun</span></a></li>
+<li><a href="http://luvat.riista.fi"><span>Sähköinen lupahaku</span></a></li>
+<li><a href="http://kauppa.riista.fi"><span>Verkkokauppa</span></a></li>
+</ul></div>				</nav>
+
+			</div>
+		</div>
+
+		<div id="site-navigation-wrap" class="contain-to-grid nav-container">
+			<div class="row">
+				<div class="large-12 columns">
+
+					
+		<div id="area-redirect" class="area-redirect right custom-select hide-for-small">
+			<select style="width: auto;">
+				<option selected value="">Aluesivut</option>
+
+															<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/etela-hame/">Etelä-Häme</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/etela-savo/">Etelä-Savo</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/helsingin-keskustoimisto/">Helsingin keskustoimisto</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/kaakkois-suomi/">Kaakkois-Suomi</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/kainuu/">Kainuu</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/keski-suomi/">Keski-Suomi</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/lappi/">Lappi</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/oulu/">Oulu</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/pohjanmaa/">Pohjanmaa</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/pohjois-hame/">Pohjois-Häme</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/pohjois-karjala/">Pohjois-Karjala</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/pohjois-savo/">Pohjois-Savo</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/rannikko-pohjanmaa/">Rannikko-Pohjanmaa</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/satakunta/">Satakunta</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/uusimaa/">Uusimaa</option>
+																				<option value="https://riista.fi/riistahallinto/alueet-ja-toimipisteet/varsinais-suomi/">Varsinais-Suomi</option>
+												</select>
+		</div>
+
+	
+					<nav id="site-navigation" class="navigation-main" role="navigation">
+						<h1 class="menu-toggle">Valikko <span> </span></h1>
+
+						<section id="site-navigation-section" class="site-navigation-section">
+						<nav class="hide-on-desktop mobile-utility-nav mobile-utility-nav-2">
+							<div class="menu-apuvalikko-2-container"><ul id="menu-apuvalikko-2" class="menu"><li><a href="https://oma.riista.fi/"><span>Kirjaudu palveluun</span></a></li>
+<li><a href="http://luvat.riista.fi"><span>Sähköinen lupahaku</span></a></li>
+<li><a href="http://kauppa.riista.fi"><span>Verkkokauppa</span></a></li>
+</ul></div>						</nav>
+
+						<ul id="menu-oletusnavi" class="alignleft"><li id="menu-item-506"><a href="https://riista.fi/">Etusivu</a></li>
+<li id="menu-item-507"><a href="https://riista.fi/uutiset/">Uutiset</a></li>
+<li id="menu-item-508"><a href="https://riista.fi/julkaisut/">Julkaisut</a></li>
+<li id="menu-item-509"><a href="https://riista.fi/riistahallinto/">Riistahallinto</a></li>
+<li id="menu-item-510" class="has-dropdown "><a href="https://riista.fi/riistatalous/">Riistatalous</a>
+<ul class="dropdown">
+	<li id="menu-item-703"><a href="https://riista.fi/riistatalous/riistakannat/">Riistakannat</a></li>
+	<li id="menu-item-704"><a href="https://riista.fi/riistatalous/vastuullisuus/">Vastuullisuus</a></li>
+	<li id="menu-item-705"><a href="https://riista.fi/riistatalous/riistavahingot-ja-konfliktit/">Riistavahingot ja -konfliktit</a></li>
+	<li id="menu-item-706"><a href="https://riista.fi/riistatalous/hyvinvointia-riistasta/">Hyvinvointia riistasta</a></li>
+</ul>
+</li>
+<li id="menu-item-511" class="has-dropdown active active"><a href="https://riista.fi/metsastys/">Metsästys</a>
+<ul class="dropdown">
+	<li id="menu-item-707" class="active"><a href="https://riista.fi/metsastys/metsastysajat/">Metsästysajat</a></li>
+	<li id="menu-item-708"><a href="https://riista.fi/metsastys/haluatko-metsastajaksi/">Haluatko metsästäjäksi?</a></li>
+	<li id="menu-item-709"><a href="https://riista.fi/metsastys/palvelut-metsastajalle/">Palvelut metsästäjälle</a></li>
+	<li id="menu-item-512"><a href="https://riista.fi/metsastys/ohjeita-metsastajalle/">Ohjeita metsästäjälle</a></li>
+	<li id="menu-item-7775"><a href="https://riista.fi/metsastys/tapahtumahaku/">Tapahtumahaku</a></li>
+	<li id="menu-item-513"><a href="https://riista.fi/metsastys/lomakkeet/">Lomakkeet</a></li>
+	<li id="menu-item-9607"><a href="https://riista.fi/metsastys/saalisseuranta/">Saalisseuranta</a></li>
+</ul>
+</li>
+</ul>
+						<nav class="hide-on-desktop mobile-utility-nav">
+							<div class="menu-apuvalikko-container"><ul id="menu-apuvalikko" class="menu"><li><a href="https://riista.fi/riistahallinto/julkiset-hallintotehtavat/">Julkiset hallintotehtävät</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/">Yhteystiedot</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/palaute/">Palaute</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/medialle/">Medialle</a></li>
+</ul></div>						</nav>
+						<!-- <div id="site-search" class="search-form" role="search"><form method="get" id="searchform" class="custom searchform" action="https://riista.fi/" role="search">
+		<label for="s" class="assistive-text">Hae</label>
+		<div class="row collapse">
+			<div class="small-10 large-10 columns">
+				<input type="search" class="field" name="s" value="" id="s" placeholder="Kirjoita hakusana" />
+			</div>
+			<div class="small-2 large-2 columns text-right">
+				<button type="submit" class="submit" id="searchsubmit" value="Hae"><i class="icon-search icon-large"></i></button>
+			</div>
+		</div>
+		</form></div> -->
+
+						</section>
+
+					</nav><!-- .site-navigation .main-navigation -->
+
+				</div>
+			</div>
+		</div>
+	</header><!-- #masthead .site-header -->
+
+	<div id="main" class="row site-main">
+
+				<div id="primary" class="large-6 push-3 columns content-area">
+			<div id="content" class="site-content" role="main">
+
+				
+					
+<article id="entry-279" class="entry post-279 page type-page status-publish hentry">
+	<header class="entry-header">
+		<div class="entry-header-inner">
+			<h1 class="entry-title">Metsästysajat</h1>
+		</div>
+	</header><!-- .entry-header -->
+
+	<div class="entry-featured-image">
+			</div>
+
+	<div class="entry-content">
+		<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Jaa tämä:</h3><div class="sd-content"><ul><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-279" class="share-facebook sd-button share-icon" href="https://riista.fi/metsastys/metsastysajat/?share=facebook" target="_blank" title="Jaa Facebookissa"><span>Facebook</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-279" class="share-twitter sd-button share-icon" href="https://riista.fi/metsastys/metsastysajat/?share=twitter" target="_blank" title="Jaa Twitterissä"><span>Twitter</span></a></li><li class="share-email"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon" href="https://riista.fi/metsastys/metsastysajat/?share=email" target="_blank" title="Lähetä tämä kaverille sähköpostitse"><span>Sähköpostitse</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon" href="https://riista.fi/metsastys/metsastysajat/#print" target="_blank" title="Tulosta"><span>Tulosta</span></a></li><li class="share-end"></li></ul></div></div></div>		
+			</div><!-- .entry-content -->
+
+	<footer class="entry-footer text-right">
+		<small>Päivitetty 25.8.2017 </small>
+	</footer>
+</article><!-- #post-279 -->
+
+
+										<div class="game-times">
+
+						<div class="row collapse">
+							<div class="small-3 columns">
+								<span class="prefix" id="filter-label">Suodata</span>
+							</div>
+							<div class="small-9 columns">
+								<input class="" id="filter" aria-labelledby="filter-label" type="text" placeholder="Kirjoita nimi tai nimen osa" />				
+							</div>
+						</div>
+												<table data-filter="#filter" class="footable">
+							<thead>
+								<th data-class="expand" class="th-species">Riistalajit</th>
+								<th class="th-area">Metsästysalue</th>
+								<th class="th-info">Ajat ja tiedot</th>
+							</thead>
+							<tbody>
+															<tr data-value="Sini- eli heinäsorsaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/sini-eli-heinasorsa/">Sini- eli heinäsorsa</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="TaviKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/tavi/">Tavi</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="HeinätaviKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/heinatavi/">Heinätavi</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="HaapanaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/haapana/">Haapana</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="JouhisorsaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/jouhisorsa/">Jouhisorsa</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="LapasorsaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/lapasorsa/">Lapasorsa</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="PunasotkaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/punasotka/">Punasotka</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="TukkasotkaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/tukkasotka/">Tukkasotka</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="TelkkäKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/telkka/">Telkkä</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="AlliKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/alli/">Alli</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="TukkakoskeloKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/tukkakoskelo/">Tukkakoskelo</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="IsokoskeloKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/isokoskelo/">Isokoskelo</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="HaahkaMaa- ja metsätalousministeriön asetuksen 1077/2015 liitteenä olevaan karttaan erikseen merkityllä alueella. Koko maassa">
+										<td rowspan="2"><a href="https://riista.fi/game/haahka/">Haahka</a></td>
+																														<td>Maa- ja metsätalousministeriön asetuksen 1077/2015 liitteenä olevaan karttaan erikseen merkityllä alueella.</td>
+										<td>
+											1.6.2017 &mdash;
+											15.6.2017											koiras, kartta osoitteessa: http://www.finlex.fi/data/sdliite/liite/6528.pdf										</td>
+																				</tr><tr data-value="HaahkaMaa- ja metsätalousministeriön asetuksen 1077/2015 liitteenä olevaan karttaan erikseen merkityllä alueella. Koko maassa">										<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="NokikanaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/nokikana/">Nokikana</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="MetsähanhiEtelä-Karjalan maakuntaan kuuluvassa Lappeenrannan kunnassa, Kymenlaakson maakunnassa, Päijät-Hämeen maakuntaan kuuluvassa Orimattilan kunnassa, Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Porvoon ja Pukkilan kunnissa.">
+										<td rowspan="1"><a href="https://riista.fi/game/metsahanhi/">Metsähanhi</a></td>
+																														<td>Etelä-Karjalan maakuntaan kuuluvassa Lappeenrannan kunnassa, Kymenlaakson maakunnassa, Päijät-Hämeen maakuntaan kuuluvassa Orimattilan kunnassa, Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Porvoon ja Pukkilan kunnissa.</td>
+										<td>
+											1.10.2017 &mdash;
+											30.11.2017																					</td>
+																			</tr>
+															<tr data-value="MerihanhiEtelä-Karjalan, Etelä-Savon, Kainuun, Kanta-Hämeen, Keski-Suomen, Pirkanmaan, Pohjois-Karjalan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Etelä-Pohjanmaan maakuntaan kuuluvissa Alajärven, Alavuden, Evijärven, Kuortaneen, Lappajärven, Soinin, Vimpelin ja Ähtärin kunnissa, Keski-Pohjanmaan maakuntaan kuuluvissa Halsuan, Lestijärven, Perhon ja Vetelin kunnissa, Lapin maakunnassa lukuun ottamatta Kemin, Keminmaan, Tornion ja Simon kuntia, Kymenlaakson maakuntaan kuuluvissa Iitin ja Kouvolan kunnissa, Pohjois-Pohjanmaan maakuntaan kuuluvissa Haapajärven, Haapaveden, Kuusamon, Kärsämäen, Nivalan, Pudasjärven, Pyhäjärven, Pyhännän, Reisjärven, Siikalatvan, Utajärven, Vaalan ja Taivalkosken kunnissa. Muualla maassa">
+										<td rowspan="2"><a href="https://riista.fi/game/merihanhi/">Merihanhi</a></td>
+																														<td>Etelä-Karjalan, Etelä-Savon, Kainuun, Kanta-Hämeen, Keski-Suomen, Pirkanmaan, Pohjois-Karjalan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Etelä-Pohjanmaan maakuntaan kuuluvissa Alajärven, Alavuden, Evijärven, Kuortaneen, Lappajärven, Soinin, Vimpelin ja Ähtärin kunnissa, Keski-Pohjanmaan maakuntaan kuuluvissa Halsuan, Lestijärven, Perhon ja Vetelin kunnissa, Lapin maakunnassa lukuun ottamatta Kemin, Keminmaan, Tornion ja Simon kuntia, Kymenlaakson maakuntaan kuuluvissa Iitin ja Kouvolan kunnissa, Pohjois-Pohjanmaan maakuntaan kuuluvissa Haapajärven, Haapaveden, Kuusamon, Kärsämäen, Nivalan, Pudasjärven, Pyhäjärven, Pyhännän, Reisjärven, Siikalatvan, Utajärven, Vaalan ja Taivalkosken kunnissa.</td>
+										<td>
+																						kielletty										</td>
+																				</tr><tr data-value="MerihanhiEtelä-Karjalan, Etelä-Savon, Kainuun, Kanta-Hämeen, Keski-Suomen, Pirkanmaan, Pohjois-Karjalan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Etelä-Pohjanmaan maakuntaan kuuluvissa Alajärven, Alavuden, Evijärven, Kuortaneen, Lappajärven, Soinin, Vimpelin ja Ähtärin kunnissa, Keski-Pohjanmaan maakuntaan kuuluvissa Halsuan, Lestijärven, Perhon ja Vetelin kunnissa, Lapin maakunnassa lukuun ottamatta Kemin, Keminmaan, Tornion ja Simon kuntia, Kymenlaakson maakuntaan kuuluvissa Iitin ja Kouvolan kunnissa, Pohjois-Pohjanmaan maakuntaan kuuluvissa Haapajärven, Haapaveden, Kuusamon, Kärsämäen, Nivalan, Pudasjärven, Pyhäjärven, Pyhännän, Reisjärven, Siikalatvan, Utajärven, Vaalan ja Taivalkosken kunnissa. Muualla maassa">										<td>Muualla maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="KanadanhanhiKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/kanadanhanhi/">Kanadanhanhi</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="LehtokurppaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/lehtokurppa/">Lehtokurppa</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 Klo 12 &mdash;
+											31.12.2017																					</td>
+																			</tr>
+															<tr data-value="TeeriLapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa. Etelä-Pohjanmaan, Kainuun, Kanta-Hämeen, Keski-Pohjanmaan, Pirkanmaan, Pohjanmaan, Pohjois-Karjalan, Päijät-Hämeen ja Satakunnan maakunnissa, Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia sekä Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Kärsämäen, Muhoksen, Oulun, Pyhäjärven, Pyhännän, Siikalatvan, Utajärven ja Vaalan kuntia. Muualla maassa.">
+										<td rowspan="3"><a href="https://riista.fi/game/teeri/">Teeri</a></td>
+																														<td>Lapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa.</td>
+										<td>
+																						Rauhoitettu										</td>
+																				</tr><tr data-value="TeeriLapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa. Etelä-Pohjanmaan, Kainuun, Kanta-Hämeen, Keski-Pohjanmaan, Pirkanmaan, Pohjanmaan, Pohjois-Karjalan, Päijät-Hämeen ja Satakunnan maakunnissa, Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia sekä Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Kärsämäen, Muhoksen, Oulun, Pyhäjärven, Pyhännän, Siikalatvan, Utajärven ja Vaalan kuntia. Muualla maassa.">										<td>Etelä-Pohjanmaan, Kainuun, Kanta-Hämeen, Keski-Pohjanmaan, Pirkanmaan, Pohjanmaan, Pohjois-Karjalan, Päijät-Hämeen ja Satakunnan maakunnissa, Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia sekä Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Kärsämäen, Muhoksen, Oulun, Pyhäjärven, Pyhännän, Siikalatvan, Utajärven ja Vaalan kuntia.</td>
+										<td>
+											10.9.2017 &mdash;
+											10.10.2017																					</td>
+																				</tr><tr data-value="TeeriLapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa. Etelä-Pohjanmaan, Kainuun, Kanta-Hämeen, Keski-Pohjanmaan, Pirkanmaan, Pohjanmaan, Pohjois-Karjalan, Päijät-Hämeen ja Satakunnan maakunnissa, Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia sekä Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Kärsämäen, Muhoksen, Oulun, Pyhäjärven, Pyhännän, Siikalatvan, Utajärven ja Vaalan kuntia. Muualla maassa.">										<td>Muualla maassa.</td>
+										<td>
+											10.9.2017 &mdash;
+											31.10.2017																					</td>
+																			</tr>
+															<tr data-value="PyyKainuun, Pohjois-Karjalan, Pohjois-Pohjanmaan ja Pohjois-Savon maakunnissa sekä Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia. Lapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa. Muualla maassa.">
+										<td rowspan="3"><a href="https://riista.fi/game/pyy/">Pyy</a></td>
+																														<td>Kainuun, Pohjois-Karjalan, Pohjois-Pohjanmaan ja Pohjois-Savon maakunnissa sekä Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia.</td>
+										<td>
+											10.9.2017 &mdash;
+											10.10.2017																					</td>
+																				</tr><tr data-value="PyyKainuun, Pohjois-Karjalan, Pohjois-Pohjanmaan ja Pohjois-Savon maakunnissa sekä Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia. Lapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa. Muualla maassa.">										<td>Lapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa.</td>
+										<td>
+																						Rauhoitettu.										</td>
+																				</tr><tr data-value="PyyKainuun, Pohjois-Karjalan, Pohjois-Pohjanmaan ja Pohjois-Savon maakunnissa sekä Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kuntia. Lapin maakuntaan kuuluvissa Enontekiön, Inarin, Kittilän, Kolarin, Muonion, Savukosken, Sodankylän ja Utsjoen kunnissa. Muualla maassa.">										<td>Muualla maassa.</td>
+										<td>
+											10.9.2017 &mdash;
+											31.10.2017																					</td>
+																			</tr>
+															<tr data-value="MetsoKanta-Hämeen, Keski-Pohjanmaan, Pohjanmaan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Kainuun maakunnassa lukuun ottamatta Puolangan kuntaa, Keski-Suomen maakunnassa lukuun ottamatta Kannonkosken, Karstulan, Keuruun, Kivijärven, Kyyjärven, Multian ja Saarijärven kuntia, Pohjois-Karjalan maakunnassa lukuun ottamatta Kiteen, Rääkkylän ja Tohmajärven kuntia, Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Iin, Kuusamon, Kärsämäen, Muhoksen, Oulun, Pudasjärven, Pyhännän, Siikalatvan, Taivalkosken, Utajärven ja Vaalan kuntia sekä Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kunnissa. Varsinais-Suomen maakunnassa ja Uudenmaan maakunnassa lukuun ottamatta Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kuntia. Muualla maassa.">
+										<td rowspan="3"><a href="https://riista.fi/game/metso/">Metso</a></td>
+																														<td>Kanta-Hämeen, Keski-Pohjanmaan, Pohjanmaan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Kainuun maakunnassa lukuun ottamatta Puolangan kuntaa, Keski-Suomen maakunnassa lukuun ottamatta Kannonkosken, Karstulan, Keuruun, Kivijärven, Kyyjärven, Multian ja Saarijärven kuntia, Pohjois-Karjalan maakunnassa lukuun ottamatta Kiteen, Rääkkylän ja Tohmajärven kuntia, Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Iin, Kuusamon, Kärsämäen, Muhoksen, Oulun, Pudasjärven, Pyhännän, Siikalatvan, Taivalkosken, Utajärven ja Vaalan kuntia sekä Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kunnissa.</td>
+										<td>
+											10.9.2017 &mdash;
+											10.10.2017																					</td>
+																				</tr><tr data-value="MetsoKanta-Hämeen, Keski-Pohjanmaan, Pohjanmaan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Kainuun maakunnassa lukuun ottamatta Puolangan kuntaa, Keski-Suomen maakunnassa lukuun ottamatta Kannonkosken, Karstulan, Keuruun, Kivijärven, Kyyjärven, Multian ja Saarijärven kuntia, Pohjois-Karjalan maakunnassa lukuun ottamatta Kiteen, Rääkkylän ja Tohmajärven kuntia, Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Iin, Kuusamon, Kärsämäen, Muhoksen, Oulun, Pudasjärven, Pyhännän, Siikalatvan, Taivalkosken, Utajärven ja Vaalan kuntia sekä Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kunnissa. Varsinais-Suomen maakunnassa ja Uudenmaan maakunnassa lukuun ottamatta Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kuntia. Muualla maassa.">										<td>Varsinais-Suomen maakunnassa ja Uudenmaan maakunnassa lukuun ottamatta Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kuntia.</td>
+										<td>
+																						Rauhoitettu										</td>
+																				</tr><tr data-value="MetsoKanta-Hämeen, Keski-Pohjanmaan, Pohjanmaan, Pohjois-Savon ja Päijät-Hämeen maakunnissa, Kainuun maakunnassa lukuun ottamatta Puolangan kuntaa, Keski-Suomen maakunnassa lukuun ottamatta Kannonkosken, Karstulan, Keuruun, Kivijärven, Kyyjärven, Multian ja Saarijärven kuntia, Pohjois-Karjalan maakunnassa lukuun ottamatta Kiteen, Rääkkylän ja Tohmajärven kuntia, Pohjois-Pohjanmaan maakunnassa lukuun ottamatta Iin, Kuusamon, Kärsämäen, Muhoksen, Oulun, Pudasjärven, Pyhännän, Siikalatvan, Taivalkosken, Utajärven ja Vaalan kuntia sekä Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kunnissa. Varsinais-Suomen maakunnassa ja Uudenmaan maakunnassa lukuun ottamatta Askolan, Lapinjärven, Loviisan, Myrskylän, Mäntsälän ja Pukkilan kuntia. Muualla maassa.">										<td>Muualla maassa.</td>
+										<td>
+											10.9.2017 &mdash;
+											31.10.2017																					</td>
+																			</tr>
+															<tr data-value="RiekkoMuualla maassa. Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.">
+										<td rowspan="2"><a href="https://riista.fi/game/riekko/">Riekko</a></td>
+																														<td>Muualla maassa.</td>
+										<td>
+																						Rauhoitettu.										</td>
+																				</tr><tr data-value="RiekkoMuualla maassa. Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.">										<td>Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.</td>
+										<td>
+											10.9.2017 &mdash;
+											31.3.2018																					</td>
+																			</tr>
+															<tr data-value="KiirunaMuualla maassa. Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.">
+										<td rowspan="2"><a href="https://riista.fi/game/kiiruna/">Kiiruna</a></td>
+																														<td>Muualla maassa.</td>
+										<td>
+																						Kielletty										</td>
+																				</tr><tr data-value="KiirunaMuualla maassa. Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.">										<td>Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.</td>
+										<td>
+											10.9.2017 &mdash;
+											31.3.2018																					</td>
+																			</tr>
+															<tr data-value="PeltopyyPohjanmaan, Etelä-Pohjanmaan, Keski-Pohjanmaan ja Pohjois-Pohjanmaan maakuntien alueella Muualla maassa">
+										<td rowspan="2"><a href="https://riista.fi/game/peltopyy/">Peltopyy</a></td>
+																														<td>Pohjanmaan, Etelä-Pohjanmaan, Keski-Pohjanmaan ja Pohjois-Pohjanmaan maakuntien alueella</td>
+										<td>
+											1.9.2017 &mdash;
+											31.10.2017																					</td>
+																				</tr><tr data-value="PeltopyyPohjanmaan, Etelä-Pohjanmaan, Keski-Pohjanmaan ja Pohjois-Pohjanmaan maakuntien alueella Muualla maassa">										<td>Muualla maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.10.2017											Suomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla										</td>
+																			</tr>
+															<tr data-value="FasaaniKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/fasaani/">Fasaani</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											28.2.2018																					</td>
+																			</tr>
+															<tr data-value="SepelkyyhkyKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/sepelkyyhky/">Sepelkyyhky</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											10.8.2017 &mdash;
+											31.10.2017																					</td>
+																			</tr>
+															<tr data-value="MetsäjänisKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/metsajanis/">Metsäjänis</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											28.2.2018																					</td>
+																			</tr>
+															<tr data-value="RusakkoKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/rusakko/">Rusakko</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											28.2.2018																					</td>
+																			</tr>
+															<tr data-value="VillikaniKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/villikani/">Villikani</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.3.2018																					</td>
+																			</tr>
+															<tr data-value="OravaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/orava/">Orava</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.12.2017 &mdash;
+											31.1.2018																					</td>
+																			</tr>
+															<tr data-value="EuroopanmajavaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/euroopanmajava/">Euroopanmajava</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 &mdash;
+											30.4.2018											Suomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla										</td>
+																			</tr>
+															<tr data-value="KanadanmajavaKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/kanadanmajava/">Kanadanmajava</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											20.8.2017 &mdash;
+											30.4.2018																					</td>
+																			</tr>
+															<tr data-value="PiisamiKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/piisami/">Piisami</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.10.2017 &mdash;
+											19.5.2018																					</td>
+																			</tr>
+															<tr data-value="KettuLapin maakunnassa Muualla maassa">
+										<td rowspan="2"><a href="https://riista.fi/game/kettu/">Kettu</a></td>
+																														<td>Lapin maakunnassa</td>
+										<td>
+											1.8.2017 &mdash;
+											30.4.2018																					</td>
+																				</tr><tr data-value="KettuLapin maakunnassa Muualla maassa">										<td>Muualla maassa</td>
+										<td>
+											1.8.2017 &mdash;
+											14.4.2018																					</td>
+																			</tr>
+															<tr data-value="Tarhattu naali eli sinikettuKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/tarhattu-naali-eli-sinikettu/">Tarhattu naali eli sinikettu</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7.										</td>
+																			</tr>
+															<tr data-value="SupikoiraKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/supikoira/">Supikoira</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7.										</td>
+																			</tr>
+															<tr data-value="MinkkiKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/minkki/">Minkki</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7.										</td>
+																			</tr>
+															<tr data-value="HilleriKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/hilleri/">Hilleri</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7.										</td>
+																			</tr>
+															<tr data-value="MäyräKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/mayra/">Mäyrä</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.8.2017 &mdash;
+											31.3.2018																					</td>
+																			</tr>
+															<tr data-value="NäätäKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/naata/">Näätä</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.11.2017 &mdash;
+											31.3.2018																					</td>
+																			</tr>
+															<tr data-value="KärppäKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/karppa/">Kärppä</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.11.2017 &mdash;
+											31.3.2018																					</td>
+																			</tr>
+															<tr data-value="IlvesMuualla maassa Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla (lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa). Poronhoitoalueella Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla ( lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa). Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla">
+										<td rowspan="3"><a href="https://riista.fi/game/ilves/">Ilves</a></td>
+																														<td>Muualla maassa Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla (lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa).</td>
+										<td>
+											1.12.2017 &mdash;
+											28.2.2018																					</td>
+																				</tr><tr data-value="IlvesMuualla maassa Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla (lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa). Poronhoitoalueella Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla ( lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa). Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla">										<td>Poronhoitoalueella Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla ( lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa).</td>
+										<td>
+											1.10.2017 &mdash;
+											28.2.2018																					</td>
+																				</tr><tr data-value="IlvesMuualla maassa Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla (lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa). Poronhoitoalueella Suomen riistakeskuksen myöntämällä ML 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla ( lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa). Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018																					</td>
+																			</tr>
+															<tr data-value="SaukkoML 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: saukon pyydystämiseksi tai tappamiseksi. Suomen riistakeskuksen myöntämällä ML 41 §:ssä tarkoitetulla poikkeusluvalla">
+										<td rowspan="2"><a href="https://riista.fi/game/saukko/">Saukko</a></td>
+																														<td>ML 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: saukon pyydystämiseksi tai tappamiseksi.</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Ajat ilmenevät poikkeuslupapäätöksistä.										</td>
+																				</tr><tr data-value="SaukkoML 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: saukon pyydystämiseksi tai tappamiseksi. Suomen riistakeskuksen myöntämällä ML 41 §:ssä tarkoitetulla poikkeusluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 41 §:ssä tarkoitetulla poikkeusluvalla</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Ajat ilmenevät poikkeuslupapäätöksistä.										</td>
+																			</tr>
+															<tr data-value="Itämeren norppaSuomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla Suomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla">
+										<td rowspan="2"><a href="https://riista.fi/game/norppa/">Itämeren norppa</a></td>
+																														<td>Suomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla</td>
+										<td>
+											1.9.2017 &mdash;
+											15.10.2017																					</td>
+																				</tr><tr data-value="Itämeren norppaSuomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla Suomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 10 §:n mukaisella pyyntiluvalla</td>
+										<td>
+											16.4.2018 &mdash;
+											31.5.2018																					</td>
+																			</tr>
+															<tr data-value="HalliMetsästyslain 10 §:n nojalla annetun alueellisen kiintiön puitteissa Metsästyslain 10 §:n nojalla annetun alueellisen kiintiön puitteissa">
+										<td rowspan="2"><a href="https://riista.fi/game/halli/">Halli</a></td>
+																														<td>Metsästyslain 10 §:n nojalla annetun alueellisen kiintiön puitteissa</td>
+										<td>
+											16.4.2017 &mdash;
+											31.7.2017											Kiintiö etusivulla.										</td>
+																				</tr><tr data-value="HalliMetsästyslain 10 §:n nojalla annetun alueellisen kiintiön puitteissa Metsästyslain 10 §:n nojalla annetun alueellisen kiintiön puitteissa">										<td>Metsästyslain 10 §:n nojalla annetun alueellisen kiintiön puitteissa</td>
+										<td>
+											1.8.2017 &mdash;
+											31.12.2017											Kiintiö etusivulla.										</td>
+																			</tr>
+															<tr data-value="VillisikaKoko maassa. Naarasta, jolla on porsaat ei saa tappaa 1.3.–31.7.">
+										<td rowspan="1"><a href="https://riista.fi/game/villisika/">Villisika</a></td>
+																														<td>Koko maassa. Naarasta, jolla on porsaat ei saa tappaa 1.3.–31.7.</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018																					</td>
+																			</tr>
+															<tr data-value="MufloniKoko maassa">
+										<td rowspan="1"><a href="https://riista.fi/game/mufloni/">Mufloni</a></td>
+																														<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.1.2018																					</td>
+																			</tr>
+															<tr data-value="HirviSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">
+										<td rowspan="6"><a href="https://riista.fi/game/hirvi/">Hirvi</a></td>
+																														<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella</td>
+										<td>
+											1.9.2017 &mdash;
+											15.9.2017																					</td>
+																				</tr><tr data-value="HirviSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella</td>
+										<td>
+											14.10.2017 &mdash;
+											31.12.2017																					</td>
+																				</tr><tr data-value="HirviSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki)</td>
+										<td>
+											1.9.2017 &mdash;
+											15.9.2017																					</td>
+																				</tr><tr data-value="HirviSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki)</td>
+										<td>
+											14.10.2017 &mdash;
+											30.11.2017																					</td>
+																				</tr><tr data-value="HirviSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											14.10.2017 &mdash;
+											31.12.2017																					</td>
+																				</tr><tr data-value="HirviSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Kemin, Kemijärven, Keminmaan, Kittilän, Kolarin, Muonion, Pelkosenniemen, Pellon, Posion, Ranuan, Rovaniemen, Sallan, Savukosken, Simon, Sodankylän, Tervolan, Tornion ja Ylitornion kuntien alueella Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla (Enontekiö, Inari ja Utsjoki) Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Muualla maassa Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											1.9.2017 &mdash;
+											13.10.2017											Vahtimalla pellolta.										</td>
+																			</tr>
+															<tr data-value="ValkohäntäpeuraVahtimalla &#8211; Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">
+										<td rowspan="2"><a href="https://riista.fi/game/valkohantapeura/">Valkohäntäpeura</a></td>
+																														<td>Vahtimalla &#8211; Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											1.9.2017 &mdash;
+											29.9.2017											Vahtimalla										</td>
+																				</tr><tr data-value="ValkohäntäpeuraVahtimalla &#8211; Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											30.9.2017 &mdash;
+											31.1.2018																					</td>
+																			</tr>
+															<tr data-value="MetsäpeuraSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">
+										<td rowspan="1"><a href="https://riista.fi/game/metsapeura/">Metsäpeura</a></td>
+																														<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											30.9.2017 &mdash;
+											31.1.2018																					</td>
+																			</tr>
+															<tr data-value="KuusipeuraSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">
+										<td rowspan="2"><a href="https://riista.fi/game/kuusipeura/">Kuusipeura</a></td>
+																														<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											30.9.2017 &mdash;
+											31.1.2018																					</td>
+																				</tr><tr data-value="KuusipeuraSuomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 26 §:n mukaisella hirvieläimen pyyntiluvalla</td>
+										<td>
+											1.9.2017 &mdash;
+											29.9.2017											Vahtimalla										</td>
+																			</tr>
+															<tr data-value="MetsäkaurisKoko maassa. Koko maassa Koko maassa">
+										<td rowspan="3"><a href="https://riista.fi/game/metsakauris/">Metsäkauris</a></td>
+																														<td>Koko maassa.</td>
+										<td>
+											16.5.2018 &mdash;
+											15.6.2018											Uros										</td>
+																				</tr><tr data-value="MetsäkaurisKoko maassa. Koko maassa Koko maassa">										<td>Koko maassa</td>
+										<td>
+											1.9.2017 &mdash;
+											31.1.2018																					</td>
+																				</tr><tr data-value="MetsäkaurisKoko maassa. Koko maassa Koko maassa">										<td>Koko maassa</td>
+										<td>
+											30.9.2017 &mdash;
+											31.1.2018											ajavaa koiraa käyttäen 										</td>
+																			</tr>
+															<tr data-value="KarhuMuualla maassa Suomen riistakeskuksen myöntämällä metsästyslain 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla, lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa) Poronhoitoalueella, metsästyslaissa säädetyistä poikkeusluvista annetun valtioneuvoston asetuksen (452/2013) 8 §:n mukaisen kiintiön nojalla (lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa) Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla">
+										<td rowspan="3"><a href="https://riista.fi/game/karhu/">Karhu</a></td>
+																														<td>Muualla maassa Suomen riistakeskuksen myöntämällä metsästyslain 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla, lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa)</td>
+										<td>
+											20.8.2017 &mdash;
+											31.10.2017																					</td>
+																				</tr><tr data-value="KarhuMuualla maassa Suomen riistakeskuksen myöntämällä metsästyslain 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla, lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa) Poronhoitoalueella, metsästyslaissa säädetyistä poikkeusluvista annetun valtioneuvoston asetuksen (452/2013) 8 §:n mukaisen kiintiön nojalla (lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa) Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla">										<td>Poronhoitoalueella, metsästyslaissa säädetyistä poikkeusluvista annetun valtioneuvoston asetuksen (452/2013) 8 §:n mukaisen kiintiön nojalla (lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa)</td>
+										<td>
+											20.8.2017 &mdash;
+											31.10.2017											Kiintiö etusivulla.										</td>
+																				</tr><tr data-value="KarhuMuualla maassa Suomen riistakeskuksen myöntämällä metsästyslain 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla, lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa) Poronhoitoalueella, metsästyslaissa säädetyistä poikkeusluvista annetun valtioneuvoston asetuksen (452/2013) 8 §:n mukaisen kiintiön nojalla (lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa) Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018																					</td>
+																			</tr>
+															<tr data-value="SusiLisäksi metsästyslain 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: suden pyydystämiseksi tai tappamiseksi. Suomen riistakeskuksen myöntämällä ML 41 §:ssä tarkoitetulla poikkeusluvalla">
+										<td rowspan="2"><a href="https://riista.fi/game/susi/">Susi</a></td>
+																														<td>Lisäksi metsästyslain 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: suden pyydystämiseksi tai tappamiseksi.</td>
+										<td>
+																						Ajat ilmenevät poikkeuslupapäätöksistä.										</td>
+																				</tr><tr data-value="SusiLisäksi metsästyslain 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: suden pyydystämiseksi tai tappamiseksi. Suomen riistakeskuksen myöntämällä ML 41 §:ssä tarkoitetulla poikkeusluvalla">										<td>Suomen riistakeskuksen myöntämällä ML 41 §:ssä tarkoitetulla poikkeusluvalla</td>
+										<td>
+											1.8.2017 &mdash;
+											31.7.2018											Ajat ilmenevät poikkeuslupapäätöksistä.										</td>
+																			</tr>
+													</tbody>
+						</table>
+					</div>
+					
+				
+					</div><!-- #content .site-content -->
+		</div><!-- #primary .content-area -->
+		<div id="secondary" class="large-3 pull-6 columns widget-area" role="complementary">
+			
+			<ul class="side-nav"><li class="current_page_item"><a href="https://riista.fi/metsastys/metsastysajat/">Metsästysajat</a></li>
+<li class=""><a href="https://riista.fi/metsastys/haluatko-metsastajaksi/">Haluatko metsästäjäksi?</a></li>
+<li class=""><a href="https://riista.fi/metsastys/palvelut-metsastajalle/">Palvelut metsästäjälle</a></li>
+<li class=""><a href="https://riista.fi/metsastys/ohjeita-metsastajalle/">Ohjeita metsästäjälle</a></li>
+<li class=""><a href="https://riista.fi/metsastys/tapahtumahaku/">Tapahtumahaku</a></li>
+<li class=""><a href="https://riista.fi/metsastys/lomakkeet/">Lomakkeet</a></li>
+<li class=""><a href="https://riista.fi/metsastys/saalisseuranta/">Saalisseuranta</a></li>
+</ul>
+			
+			<p>&nbsp;</p><!-- Stupid hack for IE8 compatibility -->
+		</div><!-- #secondary .widget-area -->
+
+		<div id="tertiary" class="large-3 columns widget-area" role="complementary">
+			<div id="side-content">
+
+			
+			<div id="site-search" class="hide-for-small search-form" role="search"><form method="get" id="searchform" class="custom searchform" action="https://riista.fi/" role="search">
+		<label for="s" class="assistive-text">Hae</label>
+		<div class="row collapse">
+			<div class="small-10 large-10 columns">
+				<input type="search" class="field" name="s" value="" id="s" placeholder="Kirjoita hakusana" />
+			</div>
+			<div class="small-2 large-2 columns text-right">
+				<button type="submit" class="submit" id="searchsubmit" value="Hae"><i class="icon-search icon-large"></i></button>
+			</div>
+		</div>
+		</form></div>
+
+			
+<aside id="p2p-2" class="panel widget widget_p2p"><h2 class="widget-title">Aiheeseen liittyvää</h2><ul id="content_to_content_list"><li><a href="https://riista.fi/metsastys/palvelut-metsastajalle/lupahallinto/harmaahylkeen-kiintiometsastys/">Harmaahylkeen kiintiömetsästys</a></li><li><a href="https://riista.fi/metsastys/palvelut-metsastajalle/lupahallinto/karhun-kiintiometsastys-poronhoitoalueella/">Karhun kiintiömetsästys poronhoitoalueella</a></li><li><a href="https://riista.fi/metsastys/lomakkeet/poikkeuslupalomakkeet/riistalinnut-rauhoittamattomat-linnut/">Riistalinnut, rauhoittamattomat linnut</a></li></ul></aside>
+			</div><!-- #side-content -->
+		</div><!-- #secondary .widget-area -->
+	</div><!-- #main .site-main -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="row site-info">
+		<div class="large-3 columns">
+			<span class="footer-logo"><a href="https://riista.fi"><img src="https://riista.fi/wp-content/themes/riista/images/footer-logo.png" alt="Suomen Riistakeskus logo" /></a></span>
+
+			<ul id="menu-oletusnavi-1" class="footer-menu footer-main-menu"><li><a href="https://riista.fi/">Etusivu</a></li>
+<li><a href="https://riista.fi/uutiset/">Uutiset</a></li>
+<li><a href="https://riista.fi/julkaisut/">Julkaisut</a></li>
+<li><a href="https://riista.fi/riistahallinto/">Riistahallinto</a></li>
+<li><a href="https://riista.fi/riistatalous/">Riistatalous</a></li>
+<li class="active active"><a href="https://riista.fi/metsastys/">Metsästys</a></li>
+</ul>
+			<ul id="menu-apuvalikko-1" class="footer-menu footer-utility-menu"><li><a href="https://riista.fi/riistahallinto/julkiset-hallintotehtavat/">Julkiset hallintotehtävät</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/">Yhteystiedot</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/palaute/">Palaute</a></li>
+<li><a href="https://riista.fi/riistahallinto/yhteystiedot/medialle/">Medialle</a></li>
+</ul>		</div>
+
+		<div class="large-6 columns footer-contact">
+			<aside id="text-3" class="widget_text"><h2 class="assistive-text">Alapalkin yhteystiedot suomeksi</h2>			<div class="textwidget"><p><strong>Asiakaspalvelu ja neuvonta</strong> (arkisin 9–15)<br />
+p. 029 431 2001, s-posti asiakaspalvelu@riista.fi</p>
+<p><strong>Metsästyskortti ja osoitteenmuutos</strong><br />
+p. 029 431 2002, s-posti metsastajarekisteri@innofactor.com<br />
+(marraskuu–kesäkuu: arkisin klo 9–16; heinäkuu–lokakuu: arkisin klo 8–18) </p>
+<p><strong>Oma riista -helpdesk</strong> (arkisin 12–16)<br />
+p. 029 431 2111, s-posti oma@riista.fi</p>
+<p><strong>Verkkokauppa ja varasto</strong> (arkisin klo 9-15)<br />
+p. 020 331 515, s-posti kauppa@riista.fi</p>
+<p><strong>Kirjaamo</strong><br />
+os. Sompiontie 1, 00730 Helsinki,<br />
+s-posti kirjaamo@riista.fi</p>
+</div>
+		</aside>
+						<div class="follow-icons">
+				<a href="https://facebook.com/riistakeskus" title="Facebook"><i class="icon-facebook"></i></a>
+				<a href="http://twitter.com/riistakeskus" title="Twitter"><i class="icon-twitter"></i></a>
+				<a href="http://slideshare.com/riistakeskus" title="Slideshare"><i class="icon-slideshare"></i></a>
+				<a href="http://www.youtube.com/riistakeskus" title="YouTube"><i class="icon-youtube"></i></a>
+				<a href="http://www.linkedin.com/company/2812311" title="LinkedIn"><i class="icon-linkedin"></i></a>
+				<a href="https://riista.fi/feed/rss/" title="RSS"><i class="icon-rss"></i></a>
+			</div>				</div>
+	</div><!-- .site-info -->
+	<div class="row footer-bottom">
+		<div class="twelve columns text-right">
+			<aside id="text-7" class="widget_text"><h2 class="assistive-text">Käyttöehdot</h2>			<div class="textwidget"><p>&copy; Suomen riistakeskus <a href="//riista.fi/kayttoehdot/">Käyttöehdot</a></p>
+</div>
+		</aside>		</div>
+	</div>
+</footer><!-- #colophon .site-footer -->
+
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/riista.fi\/metsastys\/metsastysajat\/":279};
+	</script>
+	<div id="sharing_email" style="display: none;">
+		<form action="/metsastys/metsastysajat/" method="post">
+			<label for="target_email">Lähetä sähköpostiosoitteeseen</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Nimesi</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Sähköpostiosoitteesi</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed" />
+			
+			<img style="float: right; display: none" class="loading" src="https://riista.fi/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Lähetä sähköposti" class="sharing_send" />
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Peruuta</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Viestiä ei lähetetty - tarkista sähköpostiosoitteesi!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Sähköpostivarmistus epäonnistui. Yritä uudelleen.			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Valitettavasti blogisi artikkeleita ei voida jakaa sähköpostin välityksellä.			</div>
+		</form>
+	</div>
+<script type='text/javascript' src='https://riista.fi/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201804'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/combined.min.js?ver=3.0.5'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/riista.js?ver=3.0.5'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/select2/js/select2.min.js?ver=3.0.5'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/footable.js'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/footable.filter.js'></script>
+<script type='text/javascript' src='https://riista.fi/wp-content/themes/riista/js/modaal.min.js'></script>
+<script type='text/javascript'>
+jQuery( ".contact-permalink" ).modaal({
+				type: "ajax",
+				loading_content: "Ladataan yhteystietoa…",
+				ajax_success: function() {
+					eval(jQuery(".modaal-container script").html());
+				}
+			});
+</script>
+<script type='text/javascript' src='https://riista.fi/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://riista.fi/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://riista.fi/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://riista.fi/wp-includes/js/wp-embed.min.js?ver=4.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://riista.fi/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=5.6.1'></script>
+<script type='text/javascript'>
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+</script>
+
+<!--[if gte IE 8]><!-->
+<script src="https://riista.fi/wp-content/themes/riista/js/riista-responsive.js?v=20151007_2"></script>
+<!--<![endif]-->
+
+<!-- BEGIN Snoobi v1.4 -->
+<script type="text/javascript" src="//eu1.snoobi.com/snoop.php?tili=riista_fi "></script>
+<!-- END Snoobi v1.4 -->
+</body>
+</html>
+
+<!-- Dynamic page generated in 3.073 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-01-23 19:04:19 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->
