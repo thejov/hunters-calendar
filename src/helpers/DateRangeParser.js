@@ -14,14 +14,12 @@ export const parseDateRange = (rawTextDateRange: string): Array<Date> => {
 // Finnish date format: day.month.year
 // e.g. 23.9.2017
 const parseDate = (date: string): Date => {
-  const dateAsArray = date
-    .trim()
-    .split(".")
-    .reverse()
-    .map(elem => Number.parseInt(elem));
-
-  if (dateAsArray.some(elem => Number.isInteger(elem))) {
-    return new Date(...dateAsArray);
+  var re = /\D*(\d{1,2})\.(\d{1,2})\.(20\d{2}).*/;
+  const hasDate = re.test(date);
+  if (hasDate) {
+    const formattedDate = date.replace(re, "$3-$2-$1");
+    const result = new Date(formattedDate);
+    return result;
   } else {
     throw "Not date";
   }
