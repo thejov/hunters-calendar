@@ -9,8 +9,9 @@ type HuntingSeasonCardsProps = {
 };
 
 export const ValidHuntingSeasons = (props: HuntingSeasonCardsProps) =>
-  props.huntingSeasons.map(animal => (
+  props.huntingSeasons.map((animal, index) => (
     <AnimalCard
+      key={index}
       species={animal.species}
       region={animal.region}
       huntingSeason={animal.huntingSeason}
