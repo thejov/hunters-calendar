@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
 // @flow
 
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { huntingSeasons } from "./helpers/fixtures/complete_parsed_hunting_seasons";
+import { ValidHuntingSeasons } from "./ValidHuntingSeasons";
 
 class App extends Component {
   render() {
@@ -10,11 +12,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Mitä tänään saa metsästää?</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <ValidHuntingSeasons huntingSeasons={huntingSeasons} />
       </div>
     );
   }
