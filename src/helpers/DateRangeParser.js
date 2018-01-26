@@ -2,9 +2,7 @@
 
 export const parseDateRange = (rawTextDateRange: string): Array<Date> => {
   try {
-    const dateArray = rawTextDateRange
-      .split("&mdash;")
-      .map(date => parseDate(date));
+    const dateArray = rawTextDateRange.split("—").map(date => parseDate(date));
     return dateArray;
   } catch (e) {
     return [];
