@@ -1,3 +1,5 @@
+// @flow
+
 import { parseDateRange } from "./DateRangeParser";
 
 describe("parseDateRange", () => {
