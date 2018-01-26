@@ -1,8 +1,7 @@
 // @flow
 
 import React from "react";
-import { Well } from "react-bootstrap";
-import "./ValidHuntingSeasons.css";
+import { AnimalCard } from "./AnimalCard";
 
 type HuntingSeasonCardsProps = {
   huntingSeasons: Array<Object>
@@ -17,17 +16,3 @@ export const ValidHuntingSeasons = (props: HuntingSeasonCardsProps) =>
       huntingSeason={animal.huntingSeason}
     />
   ));
-
-type AnimalCardProps = {
-  species: string,
-  region: string,
-  huntingSeason: string
-};
-
-const AnimalCard = (props: AnimalCardProps) => (
-  <Well className="animalCard" bsSize="large">
-    <h2>{props.species}</h2>
-    <p>{props.region}</p>
-    <p>{props.huntingSeason}</p>
-  </Well>
-);
