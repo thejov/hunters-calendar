@@ -7,7 +7,7 @@ import React, { Component } from "react";
 // Modifications done: Removed white background, changed filename
 import shotgun from "./shotgun.png";
 import "./App.css";
-import { huntingSeasons } from "./helpers/fixtures/complete_parsed_hunting_seasons";
+import { huntingSeasons } from "./helpers/fixtures/hunting_seasons";
 import { ValidHuntingSeasons } from "./ValidHuntingSeasons";
 
 class App extends Component {
