@@ -17,7 +17,29 @@ const App = () => (
       <h1 className="App-title">Mitä tänään saa metsästää?</h1>
     </header>
     <ValidHuntingSeasons huntingSeasons={huntingSeasons} today={new Date()} />
+    <Disclaimer />
     <IconCredits />
+  </div>
+);
+
+const Disclaimer = () => (
+  <div className="disclaimer">
+    <p>
+      Muista kuitenkin ennen metsälle lähtöä varmistaa viimeisimmät
+      metsästysajat{" "}
+      <a
+        href="https://riista.fi/metsastys/metsastysajat/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Suomen Riistakeskuksen sivuilta
+      </a>{" "}
+      ja hankkia kaikki tarvittavat luvat metsästykseen.
+    </p>
+    <p>
+      Sivuston tekijä ei ota minkäänlaista vastuuta mahdollisista virheistä tai
+      niistä syntyneistä ongelmista.
+    </p>
   </div>
 );
 
