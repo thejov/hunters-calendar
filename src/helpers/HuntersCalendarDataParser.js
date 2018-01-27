@@ -13,7 +13,13 @@ export const parseHuntersCalendarData = (filePath: string): Array<Object> => {
       header: true
     });
     const result = json.data.map(animal => {
-      return { ...animal, huntingSeason: parseDateRange(animal.huntingSeason) };
+      return {
+        ...animal,
+        huntingSeason: {
+          text: animal.huntingSeason,
+          dates: parseDateRange(animal.huntingSeason)
+        }
+      };
     });
     return result;
   } else {
@@ -25,4 +31,3 @@ const readFile = (filePath: string): string => {
   const buffer = fs.readFileSync(path.join(__dirname, filePath));
   return buffer.toString("utf8");
 };
-

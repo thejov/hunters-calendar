@@ -19,16 +19,16 @@ describe("parseDateRange", () => {
   describe("when given raw text date range", () => {
     it("returns the date range as array of date objects", () => {
       expect(parseDateRange("10.9.2017 — 10.10.2017")).toEqual([
-        new Date("2017-9-10"),
-        new Date("2017-10-10")
+        "2017-9-10",
+        "2017-10-10"
       ]);
     });
 
     describe("with start time", () => {
       it("returns the date range as array of date objects", () => {
         expect(parseDateRange("20.8.2017 Klo 12 — 31.12.2017")).toEqual([
-          new Date("2017-8-20"),
-          new Date("2017-12-31")
+          "2017-8-20",
+          "2017-12-31"
         ]);
       });
     });
@@ -39,7 +39,7 @@ describe("parseDateRange", () => {
           parseDateRange(
             "1.6.2017 — 15.6.2017 koiras, kartta osoitteessa: http://www.finlex.fi/data/sdliite/liite/6528.pdf"
           )
-        ).toEqual([new Date("2017-6-1"), new Date("2017-6-15")]);
+        ).toEqual(["2017-6-1", "2017-6-15"]);
       });
     });
   });
