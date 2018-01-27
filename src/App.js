@@ -16,7 +16,7 @@ const App = () => (
       <img src={shotgun} className="App-logo" alt="shotgun" />
       <h1 className="App-title">Mitä tänään saa metsästää?</h1>
     </header>
-    <ValidHuntingSeasons huntingSeasons={huntingSeasons} />
+    <ValidHuntingSeasons huntingSeasons={huntingSeasons} today={new Date()} />
   </div>
 );
 
