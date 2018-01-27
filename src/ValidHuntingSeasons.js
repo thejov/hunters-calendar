@@ -2,9 +2,10 @@
 
 import React from "react";
 import { AnimalCard } from "./AnimalCard";
+import type Animal from "./types/Animal";
 
 type HuntingSeasonCardsProps = {
-  huntingSeasons: Array<Object>
+  huntingSeasons: Array<Animal>
 };
 
 export const ValidHuntingSeasons = (props: HuntingSeasonCardsProps) =>

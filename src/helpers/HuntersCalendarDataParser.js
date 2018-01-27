@@ -4,8 +4,9 @@ import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
 import { parseDateRange } from "./DateRangeParser";
+import type Animal from "../types/Animal";
 
-export const parseHuntersCalendarData = (filePath: string): Array<Object> => {
+export const parseHuntersCalendarData = (filePath: string): Array<Animal> => {
   if (filePath) {
     const text = readFile(filePath);
 
